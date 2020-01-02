@@ -1,0 +1,70 @@
+body
+{
+    background-color: orange;
+}
+.eventscont
+{
+ display: inline-flex;
+ position: relative;;
+ width: 100%;
+ flex-wrap: wrap;
+ justify-content: center;
+ background-color: navy;
+}
+.events
+{
+  height:300px;
+  width:300px;
+  background-color: brown;
+  margin: 1%;
+}
+.eventslogo
+{  
+   height:200px;
+   width:200px;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-image: url(http://clipart-library.com/images/8c65qGeEi.png);
+}
+.eventstext
+{
+    background-color: olivedrab;
+}
+.button
+{
+    background-color: orange;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+    .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+.button:hover 
+{
+    background-color: black;
+    color: orange;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
